@@ -10,24 +10,30 @@
 
 <body>
     <main id="container" class="Error404">
-        <div class="Error404-content">
-            <h2>404</h2>
-            <div class="Error404-title">
-                <h4>Ups! Página no encontrada.</h4>
+        <section class="Error404-section">
+            <div class="Error404-img">
+                <img src="img/astronaut.png" alt="Astronauta perdido" />
             </div>
-            <p>La página que estas buscando no existe. Probablemente te equivocaste al escribir la dirección o la la
-                página se ha movido.</p>
-            <a href="/">Regresar</a>
-        </div>
-        <div class="Error404-img">
-            <img src="img/astronaut.svg" alt="Astronauta perdido" />
-        </div>
+            <div class="Error404-404">
+                <h2>4<img src="img/asteroid.png" alt="0">4</h2>
+            </div>
+            <div class="Error404-content">
+                <div class="Error404-title">
+                    <h4>Ups! Página no encontrada.</h4>
+                </div>
+                <p>La página que estas buscando no existe. Probablemente te equivocaste al escribir la dirección o la la
+                    página se ha movido.</p>
+                <div class="btn-back">
+                    <a href="/">Regresar</a>
+                </div>
+            </div>
+        </section>
     </main>
     <script>
         const container = document.getElementById('container');
         window.onmousemove = (event) => {
-            const x = -event.clientX/10;
-            const y = -event.clientY/10;
+            const x = -event.clientX / 10;
+            const y = -event.clientY / 10;
             container.style.backgroundPositionX = x + "px";
             container.style.backgroundPositionY = y + "px";
         }

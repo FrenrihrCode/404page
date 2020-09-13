@@ -1,0 +1,1 @@
+# Una simple página 404
