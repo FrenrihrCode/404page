@@ -161,6 +161,15 @@ body {
     .Error404-404 {
         align-self: center;
     }
+    .Error404-img img {
+    	width: 32vh;
+	}
+    .Error404-404 h2 {
+        font-size: 110px;
+    }
+    .Error404-404 img {
+        width: 110px;
+    }
 }
 
 @media screen and (max-width: 540px) {
